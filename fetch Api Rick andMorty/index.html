@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="ind.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        form{
+            margin-bottom: 1rem;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">    
+
+<h1>RICK AND MORTY</h1>
+<form id="form">
+    <input type="text"  id="search" placeholder="Search">
+    <input type="submit" value="Busca Personaje">
+</form>
+<div id="character"></div>
+
+<div id="loader-container">
+    <img id="loader" src="./depositphotos_462837044-stock-illustration-abstract-figure-loader-icon.jpg" alt="imagen">
+</div>
+
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
